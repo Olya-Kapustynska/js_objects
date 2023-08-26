@@ -64,3 +64,8 @@ const book2 = new Book('Gregory David Roberts', 'The Mountain Shadow', 2015, { c
 
 console.log(book1);
 console.log(book2);
+
+const book1Age = book1.calculateAge();
+console.log(`Вік книги "${book1.title}" становить ${book1Age} років.`);
+const book2Age = book2.calculateAge();
+console.log(`Вік книги "${book2.title}" становить ${book2Age} років.`);
